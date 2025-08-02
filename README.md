@@ -32,11 +32,18 @@ The primary aim of EventPro is to provide an intuitive and centralized platform 
 
 ---
 
-## 🧭 App Workflow
+# 🎙️ Section 1: Host Panel
+
+This section is intended for **event creators (hosts)** who want to:
+- Create and manage events
+- Invite users
+- Track participants
+
+---
 
 ### 🔐 Step 1: User Authentication
 
-Users can log in via:
+Users (hosts or participants) can log in via:
 - **Email/Password**
 - **Google Sign-In**
 
@@ -46,6 +53,7 @@ Each user is assigned a **unique UID** for personalized data handling.
 <img src="assets/img1.jpg" width="250" alt="Login Screen">
 <img src="assets/img2.jpg" width="250" alt="Register Screen">
 <img src="assets/img3.jpg" width="250" alt="Google Sign-In">
+<img src="assets/img4.jpg" width="250" alt="Enter Name">
 </p>
 
 ---
@@ -57,7 +65,6 @@ After login, users are prompted to select between:
 - **Joining an Event**
 
 <p align="center">
-<img src="assets/img4.jpg" width="250" alt="Enter Name">
 <img src="assets/img5.jpg" width="250" alt="Choice Screen">
 </p>
 
@@ -71,6 +78,7 @@ Hosts can:
 - Edit or delete existing events
 
 <p align="center">
+<img src="assets/img6.jpg" width="250" alt="Create Event Button">
 <img src="assets/img7.jpg" width="250" alt="Create Event Details">
 <img src="assets/img10.jpg" width="250" alt="Date Picker">
 <img src="assets/img11.jpg" width="250" alt="Event Card">
@@ -100,9 +108,15 @@ Hosts can view the list of users who have joined their events.
 
 ---
 
+# 🧑‍🎓 Section 2: Participant Panel
+
+This section is for users who want to **join events**, **view invitations**, and **track their participation**.
+
+---
+
 ### 🎟️ Step 6: Join Event
 
-Users can:
+Participants can:
 - Browse all available events
 - Join events they are interested in
 - View their joined events in a separate tab
@@ -116,7 +130,7 @@ Users can:
 
 ### 📨 Step 7: Invited Events
 
-Users can view and respond to event invitations from hosts with **Accept** or **Decline** options.
+Participants can view and respond to invitations received from hosts with **Accept** or **Decline** options.
 
 <p align="center">
 <img src="assets/img18.jpg" width="250" alt="Invited Nav">
