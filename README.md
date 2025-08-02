@@ -1,5 +1,7 @@
 # 📱 EventPro – Smart Event Management Android App
 
+### 📊 [**View the Live Infographic**](https://anup-kumar2004.github.io/EventPro-Event-Management-Android-Application-/)
+
 **EventPro** is a full-featured Android application designed to streamline the process of hosting and attending events, particularly within college campuses where multiple activities run concurrently. The app provides both hosts and participants with a seamless, centralized platform to manage and engage in event activities.
 
 Developed using **Java and XML** in **Android Studio**, EventPro is powered by a robust **Firebase** backend, leveraging:
@@ -144,4 +146,5 @@ Participants can view and respond to invitations received from hosts with **Acce
 You can download and test the latest version of the EventPro app using the link below:
 
 👉 [**Download EventPro.apk**](https://drive.google.com/your-shared-link-here)
+
 
