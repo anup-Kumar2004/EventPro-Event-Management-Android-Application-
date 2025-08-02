@@ -136,3 +136,12 @@ Participants can view and respond to invitations received from hosts with **Acce
 <img src="assets/img18.jpg" width="250" alt="Invited Nav">
 <img src="assets/img17.jpg" width="250" alt="Accept or Decline">
 </p>
+
+---
+
+## 📦 Download APK
+
+You can download and test the latest version of the EventPro app using the link below:
+
+👉 [**Download EventPro.apk**](https://drive.google.com/your-shared-link-here)
+
