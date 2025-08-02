@@ -114,14 +114,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙋‍♂️ Developed By
 
 **Anup Kumar**  
-[📧 Email](mailto:youremail@example.com) • [🌐 Portfolio](https://your-portfolio-link.com) • [📍 LinkedIn](https://linkedin.com/in/your-profile)
+[📧 Email](anup20102001@gmail.com) • [📍 LinkedIn](https://linkedin.com/in/anup-kumar-03b0b1354)
+
 
