@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main9"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".InviteNavMenuForHost">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayoutNumber1"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corners"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="60dp"
+            android:text="Enter Email of the User\nFor Invitation"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/emailForInviteScreen"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custom_email_icon"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Enter receiver's email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp"
+            android:paddingEnd="12dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Select Event "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="50dp"
+            android:scrollbarThumbVertical="@drawable/event_symbol"
+            android:dropDownWidth="match_parent"
+            android:scrollbars="none"
+            android:padding="5dp"
+            android:id="@+id/spinnerId"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_background"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/orange2"
+            android:textAlignment="center"
+            android:elevation="10dp"
+            android:text="Send Invitation"
+            android:textSize="23dp"
+            android:id="@+id/inviteKroButton"
+            android:onClick="saveEmail"
+            app:cornerRadius="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+           />
+
+    </LinearLayout>
+</LinearLayout>

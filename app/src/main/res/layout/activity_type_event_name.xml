@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_blue"
+    tools:context=".typeEventName">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="15dp"
+            android:text="Give your event a title." />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/aaise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="18dp"
+                android:text="Enter your email"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/custom_email_icon"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="16dp"
+                android:paddingEnd="12dp"
+                android:textSize="14sp" />
+
+
+
+            <TextView
+                android:id="@+id/aaisehie2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:text="Enter a distinct event name"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/abcd"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Provide your event name"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="12dp"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/aaasisefjn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:text="Provide event details"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/three"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Neccessary event details"
+                android:inputType="textMultiLine"
+                android:paddingStart="16dp"
+                android:paddingEnd="12dp"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:onClick="process"
+        android:src="@drawable/baseline_arrow_right_alt_24"
+        app:backgroundTint="@color/orange2"
+        app:shapeAppearanceOverlay="@style/RoundedCornerShape" />
+    
+
+</RelativeLayout>

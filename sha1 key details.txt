@@ -1,0 +1,27 @@
+
+
+
+
+
+Alias name: key0
+Creation date: 13-Aug-2024
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: C=evwv, ST=dvsv, L=evewrv, O=evvc, OU=wvv, CN=eweve
+Issuer: C=evwv, ST=dvsv, L=evewrv, O=evvc, OU=wvv, CN=eweve
+Serial number: 1
+Valid from: Tue Aug 13 18:12:35 IST 2024 until: Sat Aug 07 18:12:35 IST 2049
+Certificate fingerprints:
+         SHA1: C1:73:C2:ED:66:47:05:3F:DA:4C:98:64:27:F8:8D:EA:7B:B0:8D:07
+         SHA256: AB:30:16:49:8A:9E:96:8D:1C:7D:A0:B0:4D:B3:8E:8F:7E:63:F1:50:35:A7:46:BD:2A:33:12:4D:CF:4B:DB:2C
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+
+
+
+AsliFaltu2024
+
+save the new.jks file in the music folder of this pc , the password of new.jks is robert24 and the alias is : key0 and it;s path should be like this "C:\Users\91881\Music\new.jks"
+
+
