@@ -115,6 +115,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ---
 
 ## 🙋‍♂️ Developed By
+**Anup Kumar** 
+
 📧 **Email:** [anup20102001@gmail.com](mailto:anup20102001@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/anup-kumar-03b0b1354](https://linkedin.com/in/anup-kumar-03b0b1354)
 
