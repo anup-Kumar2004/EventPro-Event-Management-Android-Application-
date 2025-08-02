@@ -1,150 +1,127 @@
 # 📱 EventPro – Smart Event Management Android App
 
-### 📊 [**View the Live Infographic**](https://anup-kumar2004.github.io/EventPro-Event-Management-Android-Application-/)
+### 📊 [View Live Infographic](https://anup-kumar2004.github.io/EventPro-Event-Management-Android-Application-/)  
+### 📦 [Download EventPro APK](https://drive.google.com/your-shared-link-here)
 
-**EventPro** is a full-featured Android application designed to streamline the process of hosting and attending events, particularly within college campuses where multiple activities run concurrently. The app provides both hosts and participants with a seamless, centralized platform to manage and engage in event activities.
+---
 
-Developed using **Java and XML** in **Android Studio**, EventPro is powered by a robust **Firebase** backend, leveraging:
-- 🔐 Firebase Authentication (Email & Google Sign-In via OAuth 2.0)
-- ☁️ Firebase Realtime Database
-- 🌐 Google Cloud Console for OAuth integration and project management
+**EventPro** is a powerful and user-friendly Android application that simplifies the management and participation in college or campus events. It connects hosts and participants in a seamless interface with real-time features and cloud integration.
 
 ---
 
 ## 🎯 Objective
 
-The primary aim of EventPro is to provide an intuitive and centralized platform where:
+> EventPro centralizes event creation, invitation, and participation for college environments with a goal to:
 
-- 🧑‍💼 **Hosts** can easily create, manage, and invite users to events.
-- 🧑‍🤝‍🧑 **Users** can browse, join, or respond to event invitations in a structured environment.
-- 📆 College events become more organized, engaging, and accessible to everyone.
+- 🧑‍💼 Enable hosts to create, edit, and manage events.
+- 🧑‍🤝‍🧑 Allow users to browse, join, and track events.
+- 🗓️ Improve overall accessibility, engagement, and organization of campus activities.
 
 ---
 
-## 🔧 Tech Stack & Tools Used
+## 🧰 Tech Stack
 
-| Category           | Technologies / Tools                                |
+| Layer              | Technologies & Tools                                |
 |--------------------|------------------------------------------------------|
 | **Frontend**       | Java, XML (Android Studio)                          |
-| **Authentication** | Firebase Authentication, Google Sign-In (OAuth 2.0) |
+| **Authentication** | Firebase Auth (Email/Password, Google Sign-In)      |
 | **Database**       | Firebase Realtime Database                          |
 | **Cloud Services** | Google Cloud Console                                |
 | **UI Components**  | RecyclerView, CardView, Navigation Drawer           |
-| **Version Control**| Git & GitHub                                         |
+| **Version Control**| Git, GitHub                                          |
 
 ---
 
-# 🎙️ Section 1: Host Panel
+## 🚀 Features Overview
 
-This section is intended for **event creators (hosts)** who want to:
-- Create and manage events
-- Invite users
-- Track participants
+### 🔐 User Authentication
+- Login/Register via Email or Google Sign-In
+- Unique UID assigned for every user
 
----
+### 🧑‍💼 Host Panel
+- Create, edit, or delete events
+- Invite users by email
+- Track and view event participants
 
-### 🔐 Step 1: User Authentication
-
-Users (hosts or participants) can log in via:
-- **Email/Password**
-- **Google Sign-In**
-
-Each user is assigned a **unique UID** for personalized data handling.
-
-<p align="center">
-<img src="assets/img1.jpg" width="250" alt="Login Screen">
-<img src="assets/img2.jpg" width="250" alt="Register Screen">
-<img src="assets/img3.jpg" width="250" alt="Google Sign-In">
-<img src="assets/img4.jpg" width="250" alt="Enter Name">
-</p>
+### 🧑‍🎓 Participant Panel
+- Browse and join available events
+- View and manage invitations
+- Track your joined events
 
 ---
 
-### 🚦 Step 2: Choose to Host or Join Event
+## 📷 Screenshots
 
-After login, users are prompted to select between:
-- **Hosting an Event**
-- **Joining an Event**
+<details>
+  <summary><strong>Authentication Flow</strong></summary>
 
-<p align="center">
-<img src="assets/img5.jpg" width="250" alt="Choice Screen">
-</p>
+<img src="assets/img1.jpg" width="200"/>
+<img src="assets/img2.jpg" width="200"/>
+<img src="assets/img3.jpg" width="200"/>
+<img src="assets/img4.jpg" width="200"/>
 
----
+</details>
 
-### 🏗️ Step 3: Host an Event
+<details>
+  <summary><strong>Host Features</strong></summary>
 
-Hosts can:
-- Create a new event with name, date, time, and details
-- View their hosted events
-- Edit or delete existing events
+<img src="assets/img6.jpg" width="200"/>
+<img src="assets/img7.jpg" width="200"/>
+<img src="assets/img10.jpg" width="200"/>
+<img src="assets/img11.jpg" width="200"/>
+<img src="assets/img12.jpg" width="200"/>
+<img src="assets/img13.jpg" width="200"/>
+<img src="assets/img14.jpg" width="200"/>
+<img src="assets/img19.jpg" width="200"/>
 
-<p align="center">
-<img src="assets/img6.jpg" width="250" alt="Create Event Button">
-<img src="assets/img7.jpg" width="250" alt="Create Event Details">
-<img src="assets/img10.jpg" width="250" alt="Date Picker">
-<img src="assets/img11.jpg" width="250" alt="Event Card">
-<img src="assets/img12.jpg" width="250" alt="Edit Event">
-</p>
+</details>
 
----
+<details>
+  <summary><strong>Participant Features</strong></summary>
 
-### ✉️ Step 4: Invite Users
+<img src="assets/img15.jpg" width="200"/>
+<img src="assets/img16.jpg" width="200"/>
+<img src="assets/img17.jpg" width="200"/>
+<img src="assets/img18.jpg" width="200"/>
 
-Hosts can invite other users to their events using email. Invites show up in the invitee’s dashboard.
-
-<p align="center">
-<img src="assets/img14.jpg" width="250" alt="Invite Screen">
-</p>
-
----
-
-### 🧑‍🤝‍🧑 Step 5: View Participants
-
-Hosts can view the list of users who have joined their events.
-
-<p align="center">
-<img src="assets/img13.jpg" width="250" alt="Participants Nav">
-<img src="assets/img19.jpg" width="250" alt="Participants List">
-</p>
+</details>
 
 ---
 
-# 🧑‍🎓 Section 2: Participant Panel
+## 🛡️ Permissions
 
-This section is for users who want to **join events**, **view invitations**, and **track their participation**.
+This app requires the following permissions:
 
----
-
-### 🎟️ Step 6: Join Event
-
-Participants can:
-- Browse all available events
-- Join events they are interested in
-- View their joined events in a separate tab
-
-<p align="center">
-<img src="assets/img15.jpg" width="250" alt="Join Event List">
-<img src="assets/img16.jpg" width="250" alt="Joined Event Details">
-</p>
+- `INTERNET` – For Firebase data communication
+- `ACCESS_NETWORK_STATE` – To check internet connectivity
+- Additional permissions if extended for location/calendar features
 
 ---
 
-### 📨 Step 7: Invited Events
+## 🧪 Future Enhancements
 
-Participants can view and respond to invitations received from hosts with **Accept** or **Decline** options.
-
-<p align="center">
-<img src="assets/img18.jpg" width="250" alt="Invited Nav">
-<img src="assets/img17.jpg" width="250" alt="Accept or Decline">
-</p>
+- 📍 Add location-based event filtering
+- 📅 Integrate Google Calendar sync
+- 🔔 Push notifications for upcoming events
+- 📝 Feedback form for participants
 
 ---
 
-## 📦 Download APK
+## 🤝 Contribution
 
-You can download and test the latest version of the EventPro app using the link below:
+Feel free to fork the project, raise issues, or submit PRs!  
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-👉 [**Download EventPro.apk**](https://drive.google.com/your-shared-link-here)
+---
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Developed By
+
+**Anup Kumar**  
+[📧 Email](mailto:youremail@example.com) • [🌐 Portfolio](https://your-portfolio-link.com) • [📍 LinkedIn](https://linkedin.com/in/your-profile)
 
